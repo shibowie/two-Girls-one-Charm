@@ -1,0 +1,132 @@
+.any-questions {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  box-shadow: 0px 0px 8px 4px #020002;
+  display: flex;
+  background-color: #020002;
+  color: #06B3D8;
+  font-family: "Comfortaa";
+  align-items: center;
+  justify-content: space-between;
+}
+.any-questions p {
+  width: 620px;
+  margin-left: 200px;
+  text-align: justify;
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 1.4;
+}
+.any-questions img {
+  height: 500px;
+}
+
+.main-box {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+form {
+  width: 365px;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(6, 177, 216, 0.1803921569);
+  border-radius: 16px;
+  background-color: #2E204D;
+  padding: 40px 60px;
+  color: #DF2081;
+  font-family: "Comfortaa";
+  font-size: 18px;
+  box-shadow: 0 0 18px 1px rgba(6, 177, 216, 0.3490196078);
+}
+form input, form select, form textarea {
+  width: 350px;
+  height: 35px;
+  align-self: center;
+  margin: 8px 0 20px;
+  background-color: #130D20;
+  border: 1px solid #DF2081;
+  border-radius: 6px;
+}
+form input, form select {
+  height: 35px;
+  color: #DF2081;
+  font-family: "Comfortaa";
+  font-size: 16px;
+  text-indent: 5px;
+}
+form option {
+  background-color: #130D20;
+}
+form textarea {
+  height: 280px;
+  min-width: 350px;
+}
+form #sendBtn {
+  width: 100px;
+  height: 45px;
+  background-color: #DF2081;
+  border: none;
+  border-radius: 40px;
+  font-family: "Special Elite";
+  color: #020002;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 7px;
+  letter-spacing: 1px;
+  margin-left: 250px;
+  opacity: 0.8;
+}
+form #sendBtn:hover {
+  cursor: pointer;
+  transform: translate(-1px, -4px);
+  box-shadow: 0 0 8px 1px #020002;
+  opacity: 1;
+}
+form #sendBtn:active {
+  background-color: #32123D;
+  box-shadow: none;
+  border-top: 3px solid #020002;
+  border-left: 3px solid #020002;
+}
+
+.contact-info {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.contact-info img {
+  height: 70px;
+}
+.contact-info .info-box {
+  border-radius: 12px;
+  padding: 25px;
+  font-family: "Comfortaa";
+  font-size: 24px;
+  font-weight: lighter;
+  color: #DB63A0;
+  margin: 60px 0;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  box-shadow: 0 0 12px 0.5px #7F1864;
+}
+.contact-info .mail-blue {
+  box-shadow: 0 0 12px 0.5px #1E598D;
+}
+.contact-info .mail-blue .mail {
+  color: #AED8F1;
+}
+.contact-info .mail-blue .mail:hover {
+  cursor: pointer;
+  color: #DF2081;
+  text-decoration: underline;
+}/*# sourceMappingURL=styling-about.css.map */

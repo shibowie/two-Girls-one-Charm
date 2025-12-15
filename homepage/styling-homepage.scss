@@ -1,0 +1,297 @@
+@import "../universals.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+
+    &:visited {
+        color: $accentCyan;
+        filter: none;
+    }
+}
+
+body {
+    max-width: 100%;
+    background-color: $darkplumBackground;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #1e598df7;
+    box-shadow: 0px 0px 8px 1px $almostBlack;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#image-logo {
+    height: 80px;
+}
+
+#small-text-logo {
+    height: 80px;
+}
+
+.nav {
+    width: 700px;
+    display: flex;
+    font-family: "Comfortaa";
+    font-size: 22px;
+    color: $accentCyan;
+    li, a {
+        width: 140px;
+        text-align: center;
+        list-style: none;
+        filter: blur(0.8px);
+
+        &:hover {
+            cursor: pointer;
+            color: $accentMagenta;
+            filter: none;
+            font-weight: bold;
+            transform: translate(-1px, -4px);
+            text-shadow: 0 0 8px $accentMagenta;
+        }
+    }
+}
+
+#search-bar {
+    width: 200px;
+    height: 30px;
+    background-color: $darkCyan;
+    border: 2px solid $accentCyan;
+    box-shadow: 0px 0px 8px 1px $accentCyan, 0px 0px 6px $accentCyan inset;
+    border-radius: 12px;
+    text-indent: 8px;
+    font-family: "Comfortaa";
+    font-size: 16px;
+}
+::placeholder {
+        color: #227da7;
+    }
+
+#search-icon {
+    position: relative;
+    top: 5px;
+    right: 30px;
+    height: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text-logo {
+    width: 32vw;
+}
+
+.welcome {
+    width: 100%;
+    height: fit-content;
+    background-color: $almostBlack;
+    color: $accentMagenta;
+    display: flex;
+    font-family: "Comfortaa";
+    box-shadow: 0px 0px 8px 4px $almostBlack;
+    margin-bottom: 80px;
+}
+
+#the-girls {
+    height: 650px;
+    opacity: 0.8;
+}
+
+.left-box {
+    width: 67vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#dont-rest {
+    font-size: 40px;
+    margin: 20px 0 40px;
+}
+
+#linkBtn-services, #linkBtn-contact {
+    width: 250px;
+    height: 80px;
+    margin: 10px 30px;
+    border-radius: 80px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: "Comfortaa";
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+#linkBtn-services {
+    background-color: $accentCyan;
+    border: none;
+    color: $almostBlack;
+    box-shadow: 0px 0px 16px 1px $accentCyan;
+
+    &:hover {
+        background-color: #082c53;
+        box-shadow: 0px 0px 16px 1px #082c53;
+        color: aliceblue;
+    }
+}
+
+#linkBtn-contact {
+    background-color: $almostBlack;
+    border: 4px solid $accentMagenta;
+    box-shadow: 0px 0px 16px 1px $accentMagenta, 0px 0px 12px $accentMagenta inset;
+    color: $accentMagenta;
+    
+    &:hover {
+        background-color: $accentMagenta;
+        color: $almostBlack;
+    }
+}
+
+
+#handle-it {
+    color: $accentCyan;
+    font-family: Comfortaa;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 28px;
+    width: 42vw;
+    line-height: 1.4;
+    margin-bottom: 80px;
+}
+
+.decor-line {
+    width: 40vw;
+}
+
+
+.all-linkBtn {
+    margin: 100px 0;
+    color: #fff;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linkBtn {
+    background-image: url("../images/background-btn.png");
+    opacity: 0.7;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 20vw;
+    height: 180px;
+    border-radius: 80px 8px 80px 8px;
+    box-shadow: 0px 0px 16px 2px $everydayPlum;
+    text-align: center;
+    color: $accentCyan;
+    gap: 10px;
+
+    p {
+        font-family: "Comfortaa";
+        font-size: 20px;
+        width: 80%;
+        align-self: center;
+        line-height: 1.4;
+    }
+
+    h2 {
+        font-family: "Special Elite";
+        font-weight: lighter;
+        font-size: 32px;
+        letter-spacing: 2px;
+    }
+
+    &:hover {
+        opacity: 1;
+        cursor: pointer;
+        transform: scale(1.03);
+        box-shadow: 0px 0px 20px 4px $accentCyan
+    }
+}
+
+.our-guarantees {
+    margin: 100px 0;
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Comfortaa";
+
+    img {
+        margin-bottom: 20px;
+        height: 150px;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    
+    p {
+        width: 250px;
+        color: $accentCyan;
+        font-style: italic;
+        margin: 10px 0;
+        line-height: 1.3;
+    }
+}
+
+.guarantee {
+    width: 300px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: $accentMagenta;
+    box-shadow: 0px 0px 20px 4px #02000255;
+    border-radius: 12px;
+}
+
+footer {
+    background-color: $darkCyan;
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: $accentCyan;
+    font-family: "Comfortaa";
+
+    img {
+        height: 40px;
+        margin: 0 6px;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+        }
+    }
+
+    p {
+        margin-left: -200px;
+    }
+}

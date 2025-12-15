@@ -1,0 +1,136 @@
+@import "../universals.scss";
+
+.any-questions {
+    width: 100%;
+    height: fit-content;
+    box-shadow: 0px 0px 8px 4px #020002;
+    display: flex;
+    background-color: $almostBlack;
+    color: $accentCyan;
+    font-family: "Comfortaa";
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+        width: 620px;
+        margin-left: 200px;
+        text-align: justify;
+        font-size: 24px;
+        font-weight: lighter;
+        line-height: 1.4;
+    }
+
+    img {
+        height: 500px;
+    }
+}
+
+.main-box {
+    width: 100%;
+    height: fit-content;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+form {
+    width: 365px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #06b1d82e;
+    border-radius: 16px;
+    background-color: #2E204D;
+    padding: 40px 60px;
+    color: $accentMagenta;
+    font-family: "Comfortaa";
+    font-size: 18px;
+    box-shadow: 0 0 18px 1px #06b1d859;
+
+    input, select, textarea {
+        width: 350px;
+        height: 35px;
+        align-self: center;
+        margin: 8px 0 20px;
+        background-color: #130D20;
+        border: 1px solid $accentMagenta;
+        border-radius: 6px;
+    }
+    input, select {
+        height: 35px;
+        color: $accentMagenta;
+        font-family: "Comfortaa";
+        font-size: 16px;
+        text-indent: 5px;
+    }
+    option {
+        background-color: #130D20;
+    }
+    textarea {
+        height: 280px;
+        min-width: 350px;
+    }
+
+    #sendBtn {
+        width: 100px;
+        height: 45px;
+        background-color: $accentMagenta;
+        border: none;
+        border-radius: 40px;
+        font-family: "Special Elite";
+        color: $almostBlack;
+        font-size: 24px;
+        font-weight: bold;
+        padding-top: 7px;
+        letter-spacing: 1px;
+        margin-left: 250px;
+        opacity: 0.8;
+        &:hover {
+            cursor: pointer;
+            transform: translate(-1px, -4px);
+            box-shadow: 0 0 8px 1px $almostBlack;
+            opacity: 1;
+        }
+        &:active {
+            background-color: $darkplumBackground;
+            box-shadow: none;
+            border-top: 3px solid $almostBlack;
+            border-left: 3px solid $almostBlack;
+        }
+    }
+}
+
+.contact-info {
+    width: fit-content;
+    height: fit-content;
+
+    img {
+        height: 70px;
+    }
+
+    .info-box {
+        border-radius: 12px;
+        padding: 25px;
+        font-family: "Comfortaa";
+        font-size: 24px;
+        font-weight: lighter;
+        color: #DB63A0;
+        margin: 60px 0;
+        line-height: 1.5;
+        letter-spacing: 0.6px;
+        box-shadow: 0 0 12px 0.5px $everydayPlum;
+    }
+    .mail-blue {
+        box-shadow: 0 0 12px 0.5px $darkCyan;
+
+        .mail {
+            color: #AED8F1;
+            &:hover {
+                cursor: pointer;
+                color: $accentMagenta;
+                text-decoration: underline;
+            }
+        }
+    }
+}

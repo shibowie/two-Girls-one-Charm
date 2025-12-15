@@ -1,0 +1,205 @@
+@import "../universals.scss";
+.the-presentation-box {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $almostBlack;
+    color: $accentCyan;
+    box-shadow: 0px 0px 8px 4px #020002;
+
+    img {
+        height: 640px;
+    }
+}
+
+.presentation-and-signatures {
+    margin-left: -80px;
+    width: 570px;
+    font-family: "Comfortaa";
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: justify;
+    line-height: 1.4;
+    
+    p {
+        margin: 20px 0;
+    }
+
+    h2 {
+        font-family: "Mr De Haviland";
+        font-size: 60px;
+        color: $accentMagenta;
+        font-weight: lighter;
+        margin-bottom: -20px;
+    }
+
+    img {
+        width: 150px;
+        height: auto;
+    }
+
+    #signature-Sage {
+        position: relative;
+        left: 350px;
+        bottom: 20px;
+        rotate: -14deg;
+    }
+
+    #signature-Rowan {
+        position: relative;
+        left: 350px;
+        rotate: -4deg;
+    }
+}
+
+.protections {
+    opacity: 0.25;
+    
+    img {
+        height: 240px;
+    }
+
+    #general-protection {
+        position: relative;
+        right: 120px;
+        bottom: 140px;
+        rotate: -10deg;
+    }
+
+    #protection-against-evil {
+        position: relative;
+        right: 120px;
+        top: 100px;
+        rotate: 12deg;
+    }
+}
+
+.bottom-box {
+    width: 100%;
+    height: fit-content;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.origin-story-box {
+    padding: 30px;
+    width: 490px;
+    height: fit-content;
+    color: $accentCyan;
+    font-family: "Comfortaa";
+    font-weight: lighter;
+    box-shadow: 0px 0px 20px 4px $darkCyan;
+
+    h3, #parenthetical-text {
+        display: inline;
+        margin-right: 15px;
+    }
+    #parenthetical-text {
+        font-size: 18px;
+        color: $darkCyan;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    h4, h3 {
+        margin-top: 40px;
+        color: $accentMagenta;
+    }
+
+    p {
+        margin-top: 18px;
+        text-align: justify;
+        line-height: 1.6;
+    }
+}
+
+.the-CoFounders-box {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.CoFounder-profile {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+        margin-top: -100px;
+        align-self: flex-start;
+        font-family: "Special Elite";
+        color: $accentMagenta;
+        font-size: 30px;
+        font-weight: lighter;
+    }
+    .job-title {
+        align-self: flex-start;
+        font-family: "Comfortaa";
+        color: $accentCyan;
+        margin: 6px 0 16px;
+    }
+    p {
+        font-family: "Comfortaa";
+        color: $accentCyan;
+        font-weight: lighter;
+        text-align: justify;
+        line-height: 1.4;
+    }
+
+    img {
+        border-radius: 300px;
+        height: 280px;
+        justify-self: center;
+    }
+}
+
+.profile-box-Sage {
+        box-shadow: 0px 0px 20px 4px $accentMagenta;
+        padding: 0 50px 40px 50px;
+        margin-top: 150px;
+
+        #profile-picture-Sage {
+            position: relative;
+            top: -140px;
+            box-shadow: 0px 0px 20px 4px $accentMagenta;
+        }
+    }
+.profile-box-Rowan {
+        box-shadow: 0px 0px 20px 4px $everydayPlum;
+        padding: 0 50px 40px 50px;
+        margin-top: 200px;
+
+        #profile-picture-Rowan {
+            position: relative;
+            top: -150px;
+            box-shadow: 0px 0px 20px 4px $everydayPlum;
+        }
+    }
+
+
+
+.mailAndPhoneNum {
+        align-self: flex-start;
+        font-family: "Comfortaa";
+        color: $accentCyan;
+        font-weight: lighter;
+        letter-spacing: 1px;
+
+        .mail {
+            margin: 14px 0 -10px;
+
+            &:hover {
+                cursor: pointer;
+                text-decoration: underline;
+                color: $accentMagenta;
+            }
+        }
+    }
