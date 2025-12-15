@@ -3,3 +3,8 @@ As I learn new things in school, I try to continuously add and improve this webs
 
 The idea is a fictional company run by two girls that you can hire to help banish all kinds of supernatural phenomena.
 Think Ghostbusters meets Supernatural.
+
+Existing pages (for now):
+Home, 
+About Us, 
+Contact
